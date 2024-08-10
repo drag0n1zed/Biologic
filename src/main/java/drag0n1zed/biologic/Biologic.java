@@ -10,6 +10,7 @@ public class Biologic implements ModInitializer {
     @Override
     public void onInitialize() {
         LOGGER.info("Biologic iiiiinitializing!");
+        LOGGER.info("this log is for testing the git repo");
         ModItems.initialize();
     }
 
